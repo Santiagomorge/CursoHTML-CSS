@@ -1,0 +1,57 @@
+/*Primera manera de definir colores css(predeterminados de vs)*/
+.Colores{
+    color: aquamarine;
+}
+/*Segunda manera de definir colores css (hexadecimal)*/
+.Color-hexadecimal{
+    color: #5BC0BE;
+}
+/*Tercera manera de definir colores css (rgb)*/
+.Color-rgb{
+    color: rgb(100, 123, 27)
+}
+/*Cuarta manera de definir colores css (rgba) transparencia o opacidad*/
+.Color-rgba{
+    color: rgba(2, 13, 12, 0.3)
+}
+
+/*Fondos desde url web*/
+.fondo{
+    background-image: url(https://imgs.search.brave.com/XN_DO04KLDzT9L0BwFlDYNem97FnkWmKG1OaMH5lcw8/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly93d3cu/cG9yZXN0by5uZXQv/dS9mb3RvZ3JhZmlh/cy9tLzIwMjEvNi8x/NS9mMTI4MHg3MjAt/OTEwNDlfMjIyNzI0/XzUwNTAuanBn);
+    background-position: right center;
+}
+/*Fondos con un color*/
+.fondo2{
+    background-color: #F44174; 
+}
+/*Fondos con una img desde el ordenador*/
+.fondo3{
+    background-image: url("leon.jpg");
+    background-position: right center;
+}
+/*Tamaños*/
+
+.ancho{
+    background-color: coral;
+    width: 100px;
+}
+
+.alto{
+    background-color: darkblue;
+    height: 160px;
+}
+
+.Tarjeta{
+    border-style: solid;
+    border-color: rgb(1, 140, 120);
+    border-width: 10px;
+    border-top: none;
+    /* padding espacio interno*/
+    padding: 10px 20px ; /*el primer numero afecta la parte vertical (arriba abajo
+    y el segundo afecta la parte horizontal (izquierda y derecha)
+    padding: 10px 20px 30px 40 px; //cada uno afecta a una parte
+    padding: 10px //afecta a todos los lados */
+    /*margin espacio externo FUNCIONA IGUAL QUE EL PADDING*/
+    margin: 10px 20px;
+    
+}

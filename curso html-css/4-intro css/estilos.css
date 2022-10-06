@@ -1,0 +1,33 @@
+h1 {
+    color: firebrick;
+}
+
+/*Esto es un comentario en css*/
+p {
+    color: darkgoldenrod;
+    font-size: 16pt;
+}
+
+/*selectores de id*/
+#Primera-noticia {
+    color: blueviolet;
+    font-size: 30pt;
+}
+#Segunda-noticia{
+    color: coral;
+    font-size: 13pt;
+}
+
+/*selectores de clase*/
+.encabezado{
+    color: darkgreen;
+    font-size: 20pt;
+}
+
+*.warning {
+    color: red;
+}
+
+*.autor, .fecha, .ubicacion, h1, #Segunda-noticia{
+    text-decoration: underline;
+}

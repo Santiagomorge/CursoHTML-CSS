@@ -1,0 +1,15 @@
+/*cambiar fuente de todo el texto*/
+/*con metodo import(se recomienda mas este(no se tiene q entrar al html ni cambiar ni
+agreagar nada)*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+html {
+    /*Metodo desde google fonts(revisar .html tambien hay
+    que poner el link ahi*/
+    font-family: 'Open Sans', sans-serif;
+    /*metodo manual con las fuentes de vs */
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-size: larger;
+    font-weight: 100;
+    /*trabajar con otra fuente importada*/
+    font-style: italic;
+}
