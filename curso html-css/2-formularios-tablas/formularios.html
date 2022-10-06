@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>formularios</title>
+    </head>
+    <body>
+        Aqui vamos a escribir nuestro codigo
+        <!--Formulario para ingresar datos-->
+        <form action="resultados.html" method="get">
+            <div>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario" required>
+            </div>
+            <div>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" required>
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="0" max="130"step="10">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <!--Areas de texto-->
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario"></textarea>
+            </div>
+            <!--Tipos de botones-->
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</hmtl>
